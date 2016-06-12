@@ -12,13 +12,14 @@ public class InsertionSort
   n=s1.nextInt();
   a=new int[n];
   b=new int[n];
-  b[0]=a[0];
   for (int i=0;i<n;i++)
    {
      System.out.println("Enter "+(i+1)+" number");
      a[i]=s1.nextInt();
+
    }
    System.out.println(" Sorted numbers are\n");
+b[0]=a[0];
    for( int i=1;i<n;i++)
     {key=a[i];
      for(j=i;j>0;j--)
