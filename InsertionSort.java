@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-
+// new code
 public class InsertionSort
 
 {
@@ -30,6 +30,7 @@ public class InsertionSort
      }   
        b[j]=key;
          }
+
      for(int i=0;i<n;i++)
      System.out.println(b[i]);
   }
